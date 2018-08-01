@@ -37,6 +37,14 @@
     "title":"Operating Systems",
     "set":["Windows","DOS","Linux","Mac"]
   }
-
+],
+"achievements":[
+  {
+    "achievedData":"Got state level First prize  in Learnathon program ."},
+  {  "achievedData":"I have participated in paper presentations ."},
+  {   "achievedData":"I have done workshops on Iot and AndroidDevelopmentProgram ."},
+  {   "achievedData":"I have done Internship on Java ."
+  }
 ]
+
 }

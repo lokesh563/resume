@@ -17,6 +17,7 @@ fetchedData.then(data=>{
   career(data.career);
   education(data.education);
   skills(data.skills);
+  achievements(data.achievements);
 })
 var child2=document.querySelector("#child2");
 function career(car) {
@@ -66,5 +67,22 @@ function skills(skills){
     list.appendChild(listItem);
   }
 }
+}
+
+function achievements(achievement){
+  var heading=document.createElement("h2");
+  heading.textContent="Achievements";
+  child2.appendChild(heading);
+  var hline=document.createElement("hr");
+  heading.appendChild(hline);
+  var list=document.createElement("ul");
+  child2.appendChild(list);
+  var i=0;
+  while(i<achievement.length){
+    var listItem=document.createElement("li");
+    listItem.textContent=achievement[i].achievedData;
+    list.appendChild(listItem);
+    i++;
+  }
 
 }

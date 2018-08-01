@@ -1,7 +1,16 @@
 
-tr:nth-child(even){
+tr:nth-child(1){
   background:#A5D1DE       ;
   }
+  tr:nth-child(2){
+    background:#FDFEFE         ;
+    }
+    tr:nth-child(3){
+      background:#FDFEFE         ;
+      }
+      tr:nth-child(4){
+        background:#FDFEFE       ;
+        }
 .parent{
   display:flex;
   flex-direction: row;
@@ -13,6 +22,9 @@ tr:nth-child(even){
   margin: 2%;
   box-shadow: 3px 3px 3px #ddd;
 
+}
+body{
+  background-color: #9ECDEB;
 }
 
 img{
@@ -140,7 +152,7 @@ color: #FDFEFE;
     text-align: center;
   }
   body{
-    background-color:#65B9B7  ;
+    background-color:#80E8EE      ;
   }
   .a{
     display: block;
@@ -175,7 +187,7 @@ color: #FDFEFE;
     justify-content: center;
     }
   .child{
-    border: 2px solid #23A1F3;
+    border: 2px solid #9ECDEB;
     padding: 2%;
     margin: 2%;
     box-shadow: 3px 3px 3px #ddd;
@@ -185,7 +197,7 @@ color: #FDFEFE;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border:2px solid #89736F;
+    border:2px solid #9ECDEB;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -196,7 +208,7 @@ color: #FDFEFE;
     text-align: center;
   }
   body{
-    background-color:#D25F97     ;
+    background-color:#CBCEEC       ;
   }
   .a{
     display: block;
@@ -225,6 +237,11 @@ color: #FDFEFE;
   }
 }
 #child2{
+  background: #C1DFC8;
+  border: 2px solid #5E74EC;
+
+}
+#child1{
   background: #C1DFC8;
   border: 2px solid #5E74EC;
 
