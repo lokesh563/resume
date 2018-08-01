@@ -1,3 +1,7 @@
+
+tr:nth-child(even){
+  background:#A5D1DE       ;
+  }
 .parent{
   display:flex;
   flex-direction: row;
@@ -10,6 +14,7 @@
   box-shadow: 3px 3px 3px #ddd;
 
 }
+
 img{
   width: 200px;
   height: 200px;
@@ -72,7 +77,9 @@ color: #FDFEFE;
     margin-right: auto;
 
   }
-  h2,
+  h2{
+    text-align: left;
+  }
   h3{
     text-align: center;
   }
@@ -216,4 +223,9 @@ color: #FDFEFE;
     text-decoration: none;
     font-size: 20px;
   }
+}
+#child2{
+  background: #C1DFC8;
+  border: 2px solid #5E74EC;
+
 }

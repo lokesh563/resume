@@ -1,5 +1,42 @@
 {
   "career":{
     "info":"To work in a highly competitive environment with a perfect challenge by contributing the best for the growth of the organization while ensuring growth in personal career"
+  },
+"education":[
+  {
+    "degree":"B-Tech(Computer Science & Engineering)",
+    "institute":"Siddarth College of Engineering",
+    "data":["2015-2019","77%"]
+  },
+  {
+    "degree":"Intermediate(M.P.C)",
+    "institute":"Sri Chaitanya Junior College",
+    "data":["2013-2015","89%"]
+  },
+  {
+    "degree":"S.S.C",
+    "institute":"Surendra reddy's Rayalaseema Public School",
+    "data":["2012-2013","92%"]
   }
+
+],
+"skills":[
+  {
+    "title":"Programming skills",
+    "set":["C","C++","JAVA","PYTHON"]
+  },
+  {
+    "title":"Web Technologies",
+    "set":["HTML","CSS","PHP","JavaScript"]
+  },
+  {
+    "title":"Databases",
+    "set":["Sql","mySql","Oracle","NoSql"]
+  },
+  {
+    "title":"Operating Systems",
+    "set":["Windows","DOS","Linux","Mac"]
+  }
+
+]
 }
