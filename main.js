@@ -18,6 +18,9 @@ fetchedData.then(data=>{
 })
 var child2=document.querySelector("#child2");
 function career(car) {
+  var heading=document.createElement("h2");
+  heading.textContent="Career Objective";
+  child2.appendChild(heading);
   var p=document.createElement("p");
   p.textContent=car.info;
   child2.appendChild(p);
